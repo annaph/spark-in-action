@@ -1,0 +1,68 @@
+//### 2.2.2
+val licLines = sc textFile "/usr/local/spark/LICENSE"
+val lineCnt = licLines.count
+
+val bsdLines = licLines.filter(_.contains("BSD"))
+bsdLines.count
+
+//### 2.3.1
+val numbers = sc.parallelize(10 to 50 by 10)
+numbers.foreach(println)
+
+val numbersSquared = numbers.map(num => num * num)
+numbersSquared.foreach(println)
+
+val reversed = numbersSquared.map(_.toString.reverse)
+reversed.foreach(println)
+
+reversed.first
+reversed top 4
+
+//### 2.3.2
+val lines = sc textFile "/home/spark/client-ids.log"
+
+val idsStr = lines.map(_.split(","))
+idsStr.foreach(println)
+
+idsStr.collect
+
+val ids = lines.flatMap(_.split(","))
+ids.collect
+ids.first
+ids.collect mkString "; "
+
+val intIds = ids.map(_.toInt)
+intIds.collect
+
+val uniqueIds = intIds.distinct
+uniqueIds.collect
+
+val finalCount = uniqueIds.count
+val transactionCount = ids.count
+
+//### 2.3.3
+val s = uniqueIds sample(false, 0.3)
+s.count
+s.collect
+
+val swr = uniqueIds sample(true, 0.5)
+swr.count
+swr.collect
+
+val taken = uniqueIds takeSample(false, 5)
+
+uniqueIds take 3
+
+/### 2.4.1
+intIds.mean
+intIds.sum
+intIds.variance
+intIds.stdev
+intIds.stats
+
+/### 2.4.2
+intIds histogram Array(1.0, 50.0, 100.0)
+intIds histogram 3
+
+intIds sumApprox 1000
+intIds meanApprox 1000
