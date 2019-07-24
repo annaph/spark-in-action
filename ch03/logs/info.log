@@ -1,0 +1,80 @@
+19/07/24 22:29:51 WARN Utils: Your hostname, drazen-dell resolves to a loopback address: 127.0.1.1; using 192.168.3.8 instead (on interface wlp2s0)
+19/07/24 22:29:51 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+19/07/24 22:29:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/07/24 22:29:52 INFO log: Logging initialized @2345ms
+19/07/24 22:29:52 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+19/07/24 22:29:52 INFO Server: Started @2429ms
+19/07/24 22:29:52 INFO AbstractConnector: Started ServerConnector@d20dad1{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2756c0a7{/jobs,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6ca0256d{/jobs/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5ef0d29e{/jobs/job,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@51850751{/jobs/job/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3ce3db41{/stages,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@64df9a61{/stages/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77602954{/stages/stage,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@34a97744{/stages/stage/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4275c20c{/stages/pool,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c56e013{/stages/pool/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3fc9dfc5{/storage,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@40258c2f{/storage/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2cac4385{/storage/rdd,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6731787b{/storage/rdd/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@16f7b4af{/environment,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7adf16aa{/environment/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@34a1d21f{/executors,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@58bf8650{/executors/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@73c60324{/executors/threadDump,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@71ae31b0{/executors/threadDump/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4ba534b0{/static,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@533377b{/,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3383649e{/api,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@346939bf{/jobs/job/kill,null,AVAILABLE,@Spark}
+19/07/24 22:29:52 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4bf3798b{/stages/stage/kill,null,AVAILABLE,@Spark}
+19/07/24 22:29:53 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3d9fc57a{/metrics/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:53 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4287d447{/SQL,null,AVAILABLE,@Spark}
+19/07/24 22:29:53 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3af37506{/SQL/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:53 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@21ae6e73{/SQL/execution,null,AVAILABLE,@Spark}
+19/07/24 22:29:53 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@47dd778{/SQL/execution/json,null,AVAILABLE,@Spark}
+19/07/24 22:29:53 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@11a82d0f{/static/sql,null,AVAILABLE,@Spark}
+19/07/24 22:30:00 WARN Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+19/07/24 22:30:10 INFO AbstractConnector: Stopped Spark@d20dad1{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/07/24 22:33:40 WARN Utils: Your hostname, drazen-dell resolves to a loopback address: 127.0.1.1; using 192.168.3.8 instead (on interface wlp2s0)
+19/07/24 22:33:40 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+19/07/24 22:33:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/07/24 22:33:45 INFO log: Logging initialized @7935ms
+19/07/24 22:33:46 INFO Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+19/07/24 22:33:46 INFO Server: Started @8421ms
+19/07/24 22:33:46 INFO AbstractConnector: Started ServerConnector@5bc79054{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@69637b10{/jobs,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@38f57b3d{/jobs/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@51850751{/jobs/job,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@64df9a61{/jobs/job/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@77602954{/stages,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@e260766{/stages/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c3dec30{/stages/stage,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c56e013{/stages/stage/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3fc9dfc5{/stages/pool,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@40258c2f{/stages/pool/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2cac4385{/storage,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6731787b{/storage/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@16f7b4af{/storage/rdd,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7adf16aa{/storage/rdd/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@34a1d21f{/environment,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@58bf8650{/environment/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@73c60324{/executors,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@71ae31b0{/executors/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4ba534b0{/executors/threadDump,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6f0ca692{/executors/threadDump/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c104774{/static,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@10fde30a{/,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@f27ea3{/api,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@58670130{/jobs/job/kill,null,AVAILABLE,@Spark}
+19/07/24 22:33:46 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@74e47444{/stages/stage/kill,null,AVAILABLE,@Spark}
+19/07/24 22:33:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3b4ef7{/metrics/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4e6d7365{/SQL,null,AVAILABLE,@Spark}
+19/07/24 22:33:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c0da600{/SQL/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@15515c51{/SQL/execution,null,AVAILABLE,@Spark}
+19/07/24 22:33:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@36a7abe1{/SQL/execution/json,null,AVAILABLE,@Spark}
+19/07/24 22:33:47 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3ae66c85{/static/sql,null,AVAILABLE,@Spark}
+19/07/24 22:33:56 WARN Utils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+19/07/24 22:34:08 INFO AbstractConnector: Stopped Spark@5bc79054{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
